@@ -20,7 +20,7 @@
 
     git clone https://github.com/tBrause/npm-express-sass-livereload-ejs.git .; git remote remove origin; npm install; npm run dev
 
-> \_Erfolgreich getestet: 15.09.2023
+> \_Erfolgreich getestet: 28.09.2023
 
 ## Struktur und Dateien
 

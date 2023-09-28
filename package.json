@@ -1,0 +1,25 @@
+{
+  "name": "npm-express-sass-livereload-ejs",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "concurrently \"nodemon --ext *\" \"sass --watch src/scss/main.scss:public/stylesheets/style.css --style compressed\""
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.1",
+    "connect-livereload": "^0.6.1",
+    "livereload": "^0.9.3",
+    "nodemon": "^3.0.1",
+    "sass": "^1.66.1"
+  }
+}

@@ -22,6 +22,24 @@
 
 > \_Erfolgreich getestet: 28.09.2023
 
+## CMD-Befehle
+
+> CMD: git clone & remote remove origin
+
+    git clone https://github.com/tBrause/npm-express-sass-livereload-ejs.git .; git remote remove origin;
+
+> CMD: npm install
+
+    npm install
+
+> CMD: npm run dev
+
+    npm run dev
+
+> CMD: npm run start
+
+    npm run start
+
 ## Struktur und Dateien
 
 - bin
